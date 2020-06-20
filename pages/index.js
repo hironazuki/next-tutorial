@@ -11,6 +11,9 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <Link href="/api/hello">
+        <a>api test</a>
+      </Link>
       <section className={utilStyles.headingMd}>
         <p>[Your Self Introduction]</p>
         <p>
